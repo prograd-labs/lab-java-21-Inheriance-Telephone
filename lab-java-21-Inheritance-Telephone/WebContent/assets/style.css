@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    align-items: center;
+    background-color: crimson;
+    color: blanchedalmond;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: xx-large;
+    height: 10vh;
+    justify-content: center;
+}
+
+.container {
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(163, 13, 43);
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    justify-content: center;
+}
+
+.card {
+    align-items: center;
+    background-color: crimson;
+    border: 2px solid black;
+    color: blanchedalmond;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+    justify-content: center;
+    height: 75vh;
+    margin: 2%;
+    transition: 0.9s;
+    width: 12vw;
+}
+
+.card:hover {
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    color: crimson;
+    font-size: x-large;
+    transition: 0.9s;
+}
+
+.card-info {
+    align-items: center;
+    background-color: crimson;
+    border: 2px solid black;
+    color: blanchedalmond;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+    justify-content: center;
+    margin: 2%;
+    width: 9vw;
+}
+
+.calc {
+    align-items: center;
+    background-color: crimson;
+    border: 2px solid black;
+    color: blanchedalmond;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+    justify-content: center;
+    height: 75vh;
+    margin: 2%;
+    transition: 0.9s;
+    width: 12vw;
+}
